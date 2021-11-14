@@ -49,8 +49,15 @@ p {
 hr {
     border-style: dotted;
     border-width: 8px 0 0 0;
-    width: 10%;
+    width: 5%;
     color: #9379aa;
+    margin: 100px auto 100px auto;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+  line-height: 1.5;
 }
 
 .footer-link {
@@ -87,6 +94,9 @@ hr {
   color: whitesmoke;
 }
 
+.top-container{
+  background-color:#f3e6ff
+}
 .bottom-container {
   background-color: #9379aa;
   height: 150px;

@@ -47,11 +47,11 @@ p {
 }
 
 hr {
-    border-style: dotted;
-    border-width: 8px 0 0 0;
-    width: 5%;
-    color: #9379aa;
-    margin: 100px auto 100px auto;
+  border-style: dotted;
+  border-width: 8px 0 0 0;
+  width: 5%;
+  color: #9379aa;
+  margin: 100px auto 100px auto;
 }
 
 .intro {
@@ -73,8 +73,12 @@ hr {
   padding: 20px 60px 20px 60px;
 }
 
+.footer-link:hover {
+  color: #4e3e5c;
+}
+
 .project {
-    font-family: "Gotham medium";
+  font-family: "Gotham medium";
   font-weight: 500;
   font-style: normal;
   color: #9379aa;
@@ -83,7 +87,7 @@ hr {
   text-decoration: none;
   position: relative;
   top: 20px;
-  
+
   padding: 20px 0px 0px 0px;
 }
 
@@ -94,11 +98,12 @@ hr {
   color: whitesmoke;
 }
 
-.top-container{
-  background-color:#f3e6ff
+.top-container {
+  background-color: #f3e6ff;
 }
 .bottom-container {
   background-color: #9379aa;
+  margin: 0;
   height: 150px;
 }
 
@@ -159,7 +164,7 @@ hr {
 }
 
 .prof {
-    border-radius: 50%;
+  border-radius: 50%;
   height: 170px;
   position: relative;
   top: 30px;

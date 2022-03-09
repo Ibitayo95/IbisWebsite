@@ -91,6 +91,20 @@ hr {
   padding: 20px 0px 0px 0px;
 }
 
+.project:hover {
+  font-family: "Gotham medium";
+  font-weight: 500;
+  font-style: normal;
+  color: grey;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  text-decoration: none;
+  position: relative;
+  top: 20px;
+
+  padding: 20px 0px 0px 0px;
+}
+
 .copyright {
   font-family: "Gotham light";
   font-weight: 500;

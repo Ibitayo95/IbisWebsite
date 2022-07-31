@@ -1,0 +1,24 @@
+{
+  "name": "website",
+  "version": "1.0.0",
+  "description": "ibis website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ibitayo95/IbisWebsite.git"
+  },
+  "author": "ibi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ibitayo95/IbisWebsite/issues"
+  },
+  "homepage": "https://github.com/Ibitayo95/IbisWebsite#readme",
+  "dependencies": {
+
+  }
+
+  
+}

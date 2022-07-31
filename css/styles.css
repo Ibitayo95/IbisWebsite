@@ -40,7 +40,7 @@ h2,
 h3,
 p {
   margin-top: 50px;
-  font-family: "Gotham light";
+  font-family: "Gotham medium";
   font-weight: 500;
   font-style: normal;
   color: #9379aa;
@@ -52,6 +52,15 @@ hr {
   width: 5%;
   color: #9379aa;
   margin: 100px auto 100px auto;
+}
+
+.jokes {
+  text-align: left;
+  padding:3%
+
+}
+#getConfetti {
+  margin-left: 90%;
 }
 
 .intro {

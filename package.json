@@ -4,6 +4,7 @@
   "description": "ibis website",
   "main": "index.js",
   "scripts": {
+    "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,8 +18,10 @@
   },
   "homepage": "https://github.com/Ibitayo95/IbisWebsite#readme",
   "dependencies": {
-
+    "canvas-confetti": "^1.5.1"
+  },
+  "devDependencies": {
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0"
   }
-
-  
 }

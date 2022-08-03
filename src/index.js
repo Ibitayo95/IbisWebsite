@@ -18,6 +18,13 @@ jokeButton.addEventListener("click", () => {
   punchline.innerText = randomPunchline
 })
 
+confetti({
+  colors: ["#9379aa", "#e8ddf0", "#4e3e5c"],
+  spread: 180,
+  gravity: 0.1,
+  ticks: 700
+});
+
 
 // shoot confetti when mouse over on profile pic
 let profile = document.querySelector("#profilePic");

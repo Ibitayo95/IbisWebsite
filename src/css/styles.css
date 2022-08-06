@@ -2,15 +2,14 @@
 
 @font-face {
   font-family: "Gotham light";
-  src: url("fonts/Gotham-Light.woff2") format("woff2"),
-    url("fonts/Gotham-Light.woff") format("woff");
+  src: url("fonts/Gotham-Light.woff") format("woff");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: "Gotham medium";
+  font-family: "Gotham Medium";
   src: url("fonts/Gotham-Medium.woff2") format("woff2"),
     url("fonts/Gotham-Medium.woff") format("woff");
   font-weight: 500;
@@ -28,7 +27,7 @@ body {
 
 h1 {
   margin-top: 70px;
-  font-family: "Gotham medium";
+  font-family: "Gotham Medium";
   font-weight: 500;
   font-style: normal;
   color: #9379aa;
@@ -40,7 +39,8 @@ h2,
 h3,
 p {
   margin-top: 50px;
-  font-family: "Gotham medium";
+  font-family: monospace;
+  font-size: larger;
   font-weight: 500;
   font-style: normal;
   color: #9379aa;
@@ -52,14 +52,18 @@ hr {
   width: 5%;
   color: #9379aa;
   margin: 100px auto 100px auto;
+  
 }
-
+/* Buttons */
 .jokes {
   text-align: left;
   padding:3%
 
 }
 #getConfetti {
+  margin-left: 90%;
+}
+#darkMode {
   margin-left: 90%;
 }
 
@@ -70,7 +74,8 @@ hr {
 }
 
 .footer-link {
-  font-family: "Gotham medium";
+  font-family: monospace;
+  font-size: large;
   font-weight: 500;
   font-style: normal;
   color: whitesmoke;
@@ -87,7 +92,8 @@ hr {
 }
 
 .project {
-  font-family: "Gotham medium";
+  font-family: monospace;
+  font-size: x-large;
   font-weight: 500;
   font-style: normal;
   color: #9379aa;
@@ -101,7 +107,7 @@ hr {
 }
 
 .project:hover {
-  font-family: "Gotham medium";
+  font-family: monospace;
   font-weight: 500;
   font-style: normal;
   color: grey;
@@ -115,7 +121,7 @@ hr {
 }
 
 .copyright {
-  font-family: "Gotham light";
+  font-family: monospace;
   font-weight: 500;
   font-style: normal;
   color: whitesmoke;
@@ -141,11 +147,11 @@ hr {
   -webkit-border-radius: 57;
   -moz-border-radius: 57;
   border-radius: 57px;
-  font-family: "Gotham medium";
+  font-family:monospace;
   color: #e8ddf0;
   font-size: 20px;
   letter-spacing: 2px;
-  padding: 25px 20px 10px 20px;
+  padding: 5px 20px 10px 20px;
   text-decoration: none;
   position: relative;
   top: 30px;

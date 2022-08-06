@@ -3,6 +3,23 @@ import { getRandomJoke } from './jokes.js';
 // rememeber to npm run build when making js changes
 import confetti from 'canvas-confetti';
 
+let darkMode = false
+
+document.querySelector("#darkMode").addEventListener("click", () => {
+  if (!darkMode) {
+    document.querySelector(".top-container").style.backgroundColor = "#2E0249"
+    document.querySelector(".bottom-container").style.backgroundColor = "black"
+    document.querySelector("body").style.backgroundColor = "#1e1424"
+    darkMode = true;
+  } else {
+    document.querySelector(".top-container").style.backgroundColor = "#f3e6ff"
+    document.querySelector(".bottom-container").style.backgroundColor = "#9379aa"
+    document.querySelector("body").style.backgroundColor = "#f0d9ff"
+    darkMode = false;
+  }
+  
+})
+
 
 
 let jokeButton = document.querySelector("#getJoke");
@@ -18,6 +35,7 @@ jokeButton.addEventListener("click", () => {
   punchline.innerText = randomPunchline
 })
 
+// on page load
 confetti({
   colors: ["#9379aa", "#e8ddf0", "#4e3e5c"],
   spread: 180,
